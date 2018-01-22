@@ -18,13 +18,13 @@ esptool.py --baud 115200 --port /dev/ttyUSB0 read_flash 0 4194304 original_badge
 6. Search for and install the "Adafruit Neopixel" library 
 
 ## Board configuration:
-Board: "WeMos D1 R2 & mini"
-Flash Size "4M (1M SPIFFS)"
-Debug port: "Disabled"
-Debug Level: "None"
-iwIP Variant: "v2 Prebuilt (MSS=536)
-CPU Frequency "80Mhz"
-Upload Speed: "921600"
+* Board: "WeMos D1 R2 & mini"
+* Flash Size "4M (1M SPIFFS)"
+* Debug port: "Disabled"
+* Debug Level: "None"
+* iwIP Variant: "v2 Prebuilt (MSS=536)
+* CPU Frequency "80Mhz"
+* Upload Speed: "921600"
 
 ## Other comments
 The WS2811 ics are daisy chained and are connected to pin 14. The sketch more or less is https://github.com/adafruit/Adafruit_NeoPixel/blob/master/examples/strandtest/strandtest.ino
